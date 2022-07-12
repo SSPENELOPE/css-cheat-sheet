@@ -1,0 +1,100 @@
+:root {
+    --purple: rgb(211, 58, 211);
+    --white: white;
+    --background: rgb(83, 80, 80);
+    --dark: rgba(232, 102, 236, 0.3);
+    --light: rgba(232, 102, 236, 0.6);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--background);
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background);
+    margin: 10px;
+}
+
+header h1 {
+    color: var(--purple);
+    text-align: center;
+    font-size: 40px;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+
+.wrapper {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: stretch;
+   padding: 2em;
+}
+
+.container {
+    border-style: dashed;
+    border-color: white;
+    border-radius: .3em;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex: 0 1 30%;
+    margin: 15px;
+}
+
+section legend {
+    color: var(--purple);
+    background-color: var(--background);
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 25px;
+    font-weight: bolder;
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+}
+
+.card-head {
+    color: var(--purple);
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.card {
+    background-image: linear-gradient(1800deg, rgba(232, 102, 236, 0.6) 0%, rgba(232, 102, 236, 0.3) 100%);
+    color: var(--white);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    min-width: 350px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1 1;
+    line-height: 1.5;
+  }
+
+  .container:hover {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1),
+0 0 15px rgba(232, 102, 236, 1);
+  }

@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS CHEAT SHEET</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css"/></link>
+ </head>
+
+
+ <header>
+    <h1>CSS Snippet Cheatsheet</h1>
+    <br>
+        <p>
+            Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.
+        </p>
+ </header>
+
+
+ <body>
+
+    <section class="wrapper">
+        <fieldset class="container">
+            <legend>FlexBox Row</legend>
+                <h2 class="card-head">Use these three porperties to create a Flexbox row layout</h2>
+                <div class="card">
+                    <code>
+                        .row {<br>
+                        display: flex;<br>
+                        flex-direction: row;<br>
+                        flex-wrap: wrap;<br>
+                        }
+                    </code>
+                </div>
+        </fieldset>
+
+
+        <fieldset class="container">
+            <legend>Flexbox Column</legend>
+            <h2 class="card-head">Use this to create a flexbox column layout</h2>
+            <div class="card">
+                <code>
+                    .column{<br>
+                    display: flex<br>
+                    flex-direction: column<br>
+                    }
+                </code>
+            </div>
+        </fieldset>
+
+        <fieldset class="container">
+            <legend>CSS Grid Layout</legend>
+            <h2 class="card-head">Lorem Ipsum Dolar Imet</h2><br>
+            <div class="card">
+                <code>
+                   .grid {<br>
+                    display: grid;<br>
+                    width: 100%;<br>
+                    grid-template-columns: repeat(12, 1fr);<br>
+                    } 
+                </code>
+            </div>
+        </fieldset>
+
+        <fieldset class="container">
+            <legend>Linear Gradients</legend>
+            <h2 class="card-head">This will create a background linear gradient from top to bottom</h2>
+            <div class="card">
+                <code>
+                    .linear-gradient {<br>
+                    background-image: linear-gradient(<br>
+                    rgba(232, 102, 236, 0.3) 0%,<br>
+                    rgba(232, 102, 236, 0.6) 100%<br>
+                    );<br>
+                }
+                </code>
+            </div>
+        </fieldset>
+
+        <fieldset class="container">
+            <legend>Box Transition Glow</legend>
+            <h2 class="card-head">Use transition and box shadows to glow on hover</h2>
+            <div class="card">
+                <code>
+                    .code-card .card-header {<br>
+                    border-radius: 8px;<br>
+                    transition: all 0.5s ease-in-out;<br>
+                    }<br>
+                    .code-card:hover,<br>
+                    .code-card:hover .card-header {<br>
+                    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1),<br>
+                    0 0 15px rgba(232, 102, 236, 1);<br>
+                    }
+                </code>
+            </div>
+        </fieldset>
+
+        <fieldset class="container">
+            <legend>Overlay Card with Title</legend>
+            <h2 class="card-head">Use position properties and margins to raise elements higher than their natural starting point</h2>
+            <div class="card">
+                <code>
+                    .card-header {<br>
+                    position: relative;<br>
+                    margin-top: -20px;<br>
+                    }
+                </code>
+            </div>
+        </fieldset>
+    
+
+
+ </body>
